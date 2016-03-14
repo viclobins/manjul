@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'din-reg';
+    src: url('din-reg.eot');
+    src: url('din-reg.eot?#iefix') format('embedded-opentype'),
+         url('din-reg.woff') format('woff'),
+         url('din-reg.ttf') format('truetype'),
+         url('din-reg.svg#din-reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,627 @@
+@media only screen and (max-width: 479px) {
+    .responsive header {
+		padding: 7px 0 190px 10px;
+	}
+	.responsive header .title {
+		font-size: 14px;
+    	margin-top: 0px;
+	}
+	.responsive nav { width:85px; right:7px; }
+	.responsive .nav-wrapper {
+		display:none !important;
+	}
+	.responsive nav .menu { background:#fff !important; }
+	.responsive nav .menu.active {
+		background:#e0e0e0 !important;
+		/*border-bottom:none !important;*/
+	}
+	.responsive .sideNav { display:block; }
+	.responsive .arrowDown { display:none; }
+	
+	
+	.responsive #section1 {
+		height:400px;
+	}
+	.responsive .welcome {
+		font-size: 38px;
+		margin-left: 10px;
+	}
+	.responsive .graphic-one, .responsive #line1, .responsive .waves {
+		display:none;
+	}
+	.responsive .mainCopy {
+		font-size: 14px;
+	}
+	.responsive .mainCopy .details, .responsive .mainCopy .details a {
+		font-size: 11px;
+	}
+	.responsive #work .mainCopy .no-wrap {
+		white-space:normal;
+	}
+	.responsive .section2 {
+		background:#fff;
+	}
+	.responsive .section2 .content {
+		width: 96%;
+    	margin: 20px auto 30px;
+	}
+	.responsive .bx-wrapper {
+		margin: 5px auto 60px;
+	}
+	.responsive .bx-wrapper .bx-viewport {
+		-moz-box-shadow: none;
+    	-webkit-box-shadow: none;
+		box-shadow: none;
+    	border: 1px solid #a9a9ac;
+		left:0;
+		width:99.9% !important; 
+	}
+	.responsive .bx-wrapper .bx-controls-direction a {
+		width: 11px;
+	    height: 21px;
+		margin-top:-10px;
+		background-size: 35px;
+	}
+	.responsive .bx-wrapper .bx-prev { background-position: -23px 0; left: 15px; }
+	.responsive .bx-wrapper .bx-prev:hover { background-position: 0 0; }
+	.responsive .bx-wrapper .bx-next { background-position: -1px -21px; right: 15px; }
+	.responsive .bx-wrapper .bx-next:hover { background-position:-24px -21px; }
+	.responsive .more {
+		max-height:0;
+		overflow:hidden;
+		-webkit-transition:max-height 0.4s ease-in-out;
+		-moz-transition:max-height 0.4s ease-in-out;
+		-o-transition:max-height 0.4s ease-in-out;
+		transition:max-height 0.4s ease-in-out;
+	}
+	.responsive .more.active { max-height:3000px; }
+	.responsive .moreButton { display:block; }
+	
+	
+	.responsive .section3 {
+		height: auto;
+	}
+	.responsive #line2 {
+		display:none;
+	}
+	.responsive #myStory {
+		position:relative;
+		top:0;
+		margin-top:50px;
+		padding-top:30px;
+		height:auto;
+	}
+	.responsive .loveToLearn, .responsive .andPlay {
+	    width: 100%;
+		top:0; left:0; right:0;
+		position:relative;
+		opacity:1 !important;
+	}
+	.responsive .andPlay { margin-top:70px; }
+	.responsive .loveToLearn h2, .responsive .andPlay h2 {
+		font-size: 34px;
+	}
+	.responsive .loveToLearn img { width: 48%; max-width:138px; }
+	.responsive .andPlay img { max-width:305px; }
+	.responsive .pins {
+		display:none;
+	}
+	
+	
+	.responsive .section4 {
+		height: auto;
+	}
+	.responsive #line3 {
+		display:none;
+	}
+	.responsive #cv {
+		width: 100%;
+		top: 0;
+		left: 0;
+		margin-left: 0;
+		padding-top: 100px;
+		position: relative;
+	}
+	.responsive .accordion { max-height: 41px; }
+	.responsive .accordion.active { max-height: 390px; }
+	.responsive .accordion.active .close { top: 12px; }
+	.responsive .accordion .close { top: 16px; }
+	.responsive .accordion h2.title {
+		font-size: 18px;
+		padding: 10px 10px 8px;
+	}
+	.responsive .accordion .contents {
+		width: 96%;
+		padding-bottom: 25px;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.responsive .accordion h3.title { font-size: 9px; }
+	.responsive .accordion p.mainCopy {
+		font-size: 9px;
+		line-height: 1.2;
+	}
+	.responsive .col-1-4.education1 .mainCopy, .responsive .col-1-4.education2 .mainCopy, .responsive .col-1-4.interests1 .mainCopy, .responsive .col-1-4.redundant1 .mainCopy { line-height:1.2; }
+	.responsive interests p.mainCopy { line-height:1.2; }
+	
+	
+	.responsive .section5 {
+		margin:50px 0;
+	}
+	.responsive #contact { top:0; }
+	.responsive .graphic-two {
+		width: 70%;
+		top: 0; left: 0;
+		margin: 0 auto;
+		position: relative;
+	}
+	.responsive .section5 .title {
+		margin-top: 20px;
+		margin-left: 10px;
+		font-size: 32px;
+	}
+	.responsive .section5 .mainCopy {
+		margin-left: 10px;
+	}
+	.responsive .social {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+	.responsive header {
+		padding: 20px 0 150px 25px;
+	}
+	.responsive header .title {
+    	margin-top: 0px;
+	}
+	.responsive nav { width:85px; }
+	.responsive .nav-wrapper {
+		display:none !important;
+	}
+	.responsive nav .menu { background:#fff !important; }
+	.responsive nav .menu.active {
+		background:#e0e0e0 !important;
+		/*border-bottom:none !important;*/
+	}
+	.responsive .sideNav { display:block; top:0; padding-top:75px; }
+	.responsive .sidenav-wrapper { padding: 40px 75px 20px; font-size:17px; }
+	.responsive .arrowDown { display:none; }
+	
+	
+	.responsive #section1 {
+		height:1380px;
+	}
+	.responsive .welcome {
+		font-size: 40px;
+		margin-left: 25px;
+	}
+	.responsive .graphic-one {
+		width: 75px;
+		margin-left: 29px;
+		margin-top: 9px;
+	}
+	.responsive #line1 {
+		width: 476px;
+		height: 1350px;
+		left: -20px;
+    	top: 202px;
+	}
+	.responsive .mainCopy {
+		font-size: 15px;
+	}
+	.responsive .mainCopy .details, .responsive .mainCopy .details a {
+		font-size: 12px;
+	}
+	.responsive .waves {
+		margin-bottom:-1px;
+		height:34px;
+	}
+	.responsive .section2 .content {
+		width: 70%;
+		margin: 220px auto 250px;
+	}
+	.responsive .bx-wrapper {
+		margin: 5px auto 60px;
+	}
+	.responsive .bx-wrapper .bx-prev {
+		left: -40px;
+	}
+	.responsive .bx-wrapper .bx-next {
+		right: -40px;
+	}
+	.responsive .bx-wrapper .bx-pager, .responsive .bx-wrapper .bx-controls-auto {
+		bottom:10px;
+	}
+	.responsive .bx-wrapper .bx-pager.bx-default-pager a { width:12px; height:12px; }
+	
+	
+	.responsive .section3 {
+		height: 1158px;
+	}
+	.responsive #line2 {
+		width: 480px;
+		height: 1748px;
+		top: -590px;
+		left: 0;
+	}
+	.responsive #myStory {
+		top: 760px;
+		height: 683px;
+	}
+	.responsive .loveToLearn {
+	    width: 155px;
+		top:44px;
+	}
+	.responsive .loveToLearn h2, .responsive .andPlay h2 {
+		font-size: 21px;
+	}
+	.responsive .loveToLearn img { width: 50%; }
+	.responsive .andPlay {
+		width: 140px;
+		top: 226px;
+		right: auto;
+		left:324px;
+	}
+	.responsive .pins {
+		width: 10px;
+    	height: 10px;
+	}
+	.responsive .pins p {
+		font-size:12px;
+	}
+	.responsive .pin1 { top:51px; left:327px; } .responsive .pin1 p { top: -11px; left: -22px; }
+	.responsive .pin2 { top: 79px; left: 330px; } .responsive .pin2 p { top: -7px; right: 13px; }
+	.responsive .pin3 { top: 106px; left: 319px; } .responsive .pin3 p { top: -4px; left: -45px; }
+	.responsive .pin4 { top: 137px; left: 299px; } .responsive .pin4 p { top: -8px; right: 14px; }
+	.responsive .pin5 { top: 173px; left: 293px; } .responsive .pin5 p { top: -9px; left: -17px; }
+	.responsive .pin6 { top: 210px; left: 277px; } .responsive .pin6 p { top: -27px; right: 5px; }
+	.responsive .pin7 { top: 232px; left: 238px; } .responsive .pin7 p { top: 11px; left: -41px; }
+	.responsive .pin8 { top: 236px; left: 191px; } .responsive .pin8 p { top: -17px; left: -51px; }
+	.responsive .pin9 { top: 233px; left: 142px; } .responsive .pin9 p { top: 12px; left: -47px; }
+	.responsive .pin10 { top: 238px; left: 95px; } .responsive .pin10 p { top: -15px; right: -5px; }
+	.responsive .pin11 { top: 259px; left: 65px; } .responsive .pin11 p { top: -3px; left: 13px; }
+	.responsive .pin12 { top: 290px; left: 60px; } .responsive .pin12 p { top: -10px; right: 12px; }
+	.responsive .pin13 { top: 313px; left: 76px; } .responsive .pin13 p { top: -26px; left: 8px; }
+	.responsive .pin14 { top: 326px; left: 107px; } .responsive .pin14 p { top: 13px; right: -19px; }
+	.responsive .pin15 { top: 331px; left: 152px; } .responsive .pin15 p { top: -30px; left: -37px; }
+	.responsive .pin16 { top: 332px; left: 194px; } .responsive .pin16 p { text-align:right; top: 13px; left: -80px; }
+	.responsive .pin17 { top: 332px; left: 232px; } .responsive .pin17 p { text-align:left; top: -27px; left: -25px; }
+	.responsive .pin18 { top: 351px; left: 227px; }
+	
+	
+	.responsive .section4 {
+		height: 1588px;
+	}
+	.responsive #line3 {
+		width: 480px;
+		height: 1577px;
+		left: 0px;
+	}
+	.responsive #cv {
+		width: 100%;
+		top: 430px;
+		left: 0;
+		margin-left: 0;
+		padding-top: 100px;
+	}
+	.responsive .accordion { max-height: 44px; }
+	.responsive .accordion.active { max-height: 450px; }
+	.responsive .accordion.active .close { top: 12px; }
+	.responsive .accordion .close { top: 16px; }
+	.responsive .accordion h2.title {
+		font-size: 20px;
+		padding: 10px 10px 8px;
+	}
+	.responsive .accordion .contents {
+		width: 96%;
+		padding-bottom: 35px;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.responsive .accordion h3.title { font-size: 12px; }
+	.responsive .accordion p.mainCopy {
+		font-size: 12px;
+		line-height: 1.2;
+	}
+	.responsive .col-1-4.education1 .mainCopy, .responsive .col-1-4.education2 .mainCopy, .responsive .col-1-4.interests1 .mainCopy, .responsive .col-1-4.redundant1 .mainCopy { line-height:1.2; }
+	.responsive interests p.mainCopy { line-height:1.2; }
+	
+	
+	.responsive .section5 {
+		margin-bottom:167px;
+	}
+	.responsive .graphic-two {
+		width: 152px;
+		top: -75px;
+    	left: 379px;
+	}
+	.responsive .section5 .title {
+		margin-top: 20px;
+		margin-left: 20px;
+		font-size: 30px;
+	}
+	.responsive .section5 .mainCopy {
+		margin-left: 20px;
+		font-size:16px;
+	}
+	.responsive .social {
+		margin-left: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	.responsive .bx-pager {
+		display:block !important;
+		opacity:0.8;
+		bottom:10px !important;
+	}
+	.responsive .bx-pager.bx-default-pager a {
+		margin:0 5px !important;
+	}
+}
+
+@media only screen and (min-width: 530px) and (max-width: 767px) {
+	.responsive .graphic-two {
+		width: 172px !important;
+		top: -55px !important;
+    	left: 416px !important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 949px) {
+    
+	.responsive header {
+		padding: 20px 0 150px 25px;
+	}
+	.responsive header .title {
+    	margin-top: 0px;
+	}
+	.responsive nav {
+		right:3%;
+	}
+	
+	
+	.responsive .welcome {
+		margin-left: 25px;
+	}
+	.responsive .graphic-one {
+		margin-left: 29px;
+	}
+	.responsive #line1 {
+		left: -75px;
+    	top: 230px;
+	}
+	.responsive .section2 .content {
+		width: 70%;
+	}
+	.responsive .bx-wrapper .bx-pager, .responsive .bx-wrapper .bx-controls-auto {
+		bottom:20px;
+	}
+	.responsive .arrowDown { display:none; }
+	
+	
+	.responsive .section3 {
+		height: 2207px;
+	}
+	.responsive #line2 {
+		width: 768px;
+		height: 2797px;
+		top: -590px;
+		left: 0;
+	}
+	.responsive #myStory {
+		top: 1600px;
+		height: 607px;
+	}
+	.responsive .loveToLearn {
+	    width: 240px;
+    	top: 54px;
+	}
+	.responsive .loveToLearn h2, .responsive .andPlay h2 {
+		font-size: 30px;
+	}
+	.responsive .loveToLearn img { width: 50%; }
+	.responsive .andPlay {
+		width: 240px;
+		top: 346px;
+		right: auto;
+		left: 550px;
+	}
+	.responsive .pins {
+		width: 12px;
+    	height: 12px;
+	}
+	.responsive .pins p {
+		font-size:15px;
+	}
+	.responsive .pin1 { top: 55px; left: 524px; } .responsive .pin1 p { top: -3px; left: 5px; }
+	.responsive .pin2 { top: 99px; left: 529px; } .responsive .pin2 p { top: -11px; right: 19px; }
+	.responsive .pin3 { top: 146px; left: 508px; } .responsive .pin3 p { top: -18px; left: 2px; }
+	.responsive .pin4 { top: 197px; left: 481px; } .responsive .pin4 p { top: -11px; right: 17px; }
+	.responsive .pin5 { top: 260px; left: 468px; } .responsive .pin5 p { top: -11px; left: 10px; }
+	.responsive .pin6 { top: 310px; left: 443px; } .responsive .pin6 p { top: -31px; right: 8px; }
+	.responsive .pin7 { top: 344px; left: 382px; } .responsive .pin7 p { top: 13px; left: -37px; }
+	.responsive .pin8 { top: 350px; left: 304px; } .responsive .pin8 p { top: -22px; left: -54px; }
+	.responsive .pin9 { top: 344px; left: 220px; } .responsive .pin9 p { top: 14px; left: -49px; }
+	.responsive .pin10 { top: 356px; left: 142px; } .responsive .pin10 p { top: -21px; right: 1px; }
+	.responsive .pin11 { top: 389px; left: 105px; } .responsive .pin11 p { top: -2px; left: 16px; }
+	.responsive .pin12 { top: 436px; left: 99px; } .responsive .pin12 p { top: -12px; right: 19px; }
+	.responsive .pin13 { top: 472px; left: 123px; } .responsive .pin13 p { top: -34px; left: 9px; }
+	.responsive .pin14 { top: 493px; left: 170px; } .responsive .pin14 p { top: 15px; right: -14px; }
+	.responsive .pin15 { top: 501px; left: 234px; } .responsive .pin15 p { top: -37px; left: -34px; }
+	.responsive .pin16 { top: 503px; left: 302px; } .responsive .pin16 p { top: 16px; left: -52px; }
+	.responsive .pin17 { top: 504px; left: 373px; } .responsive .pin17 p { top: -41px; left: -69px; }
+	.responsive .pin18 { top: 534px; left: 385px; }
+	
+	
+	.responsive .section4 {
+		height: 2521px;
+	}
+	.responsive #line3 {
+		width: 768px;
+		height: 2523px;
+		left: 0px;
+	}
+	.responsive #cv {
+		width: 100%;
+		top: 798px;
+		left: 0;
+		margin-left: 0;
+		padding-top: 100px;
+	}
+	.responsive .accordion { max-height: 44px; }
+	.responsive .accordion.active { max-height: 450px; }
+	.responsive .accordion.active .close { top: 12px; }
+	.responsive .accordion .close { top: 16px; }
+	.responsive .accordion h2.title {
+		padding: 10px 10px 8px;
+	}
+	.responsive .accordion .contents {
+		width: 96%;
+		padding-bottom: 35px;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.responsive .accordion h3.title { font-size: 13px; }
+	.responsive .accordion p.mainCopy { font-size: 13px; }
+	
+	
+	.responsive .section5 {
+		margin-bottom:200px;
+	}
+	.responsive .graphic-two {
+		top: -112px;
+    	left: 590px;
+	}
+	.responsive .section5 .title {
+		margin-left: 20px;
+	}
+	.responsive .section5 .mainCopy {
+		margin-left: 20px;
+	}
+	.responsive .social {
+		margin-left: 20px;
+	}
+	
+}
+
+@media only screen and (min-width: 910px) and (max-width: 949px) {
+	
+	.responsive .graphic-two {
+		top: -78px !important;
+    	left: 663px !important;
+	}
+	
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1130px) {
+	
+	.responsive header {
+		padding: 30px 50px 215px;
+	}
+	.responsive .welcome {
+		margin-left: 50px;
+	}
+	.responsive .graphic-one {
+		margin-left: 55px;
+	}
+	.responsive #line1 {
+		left: -49px;
+	}
+	
+	.responsive #line2 {
+		left:0;
+	}
+	.responsive .andPlay {
+		right:4%;
+	}
+	.responsive .pin1 { left: 645px; }
+	.responsive .pin2 { left: 652px; }
+	.responsive .pin3 { left: 619px; }
+	.responsive .pin4 { left: 589px; }
+	.responsive .pin5 { left: 576px; }
+	.responsive .pin6 { left: 543px; }
+	.responsive .pin7 { left: 459px; }
+	.responsive .pin8 { left: 367px; }
+	.responsive .pin9 { left: 266px; }
+	.responsive .pin10 { left: 176px; }
+	.responsive .pin11 { left: 130px; }
+	.responsive .pin12 { left: 123px; }
+	.responsive .pin13 { left: 159px; }
+	.responsive .pin14 { left: 219px; }
+	.responsive .pin15 { left: 294px; }
+	.responsive .pin16 { left: 374px; }
+	.responsive .pin17 { left: 459px; }
+	.responsive .pin18 { left: 482px; }
+	
+	.responsive #line3 { left:10px; }
+	.responsive #cv {
+		width:864px;
+		left: 50%;
+    	margin-left: -432px;
+	}
+	.responsive .section5 .title { margin-left:50px; }
+	.responsive .section5 .mainCopy { margin-left:50px; }
+	.responsive .social { margin-left:50px; }
+	.responsive .graphic-two {
+		top: -108px;
+		left: 783px;
+	}
+	
+}
+
+@media only screen and (min-width: 1131px) and (max-width: 1240px) {
+	
+	.responsive #cv {
+		width: 912px;
+	}
+	
+}
+
+@media only screen and (min-width: 1241px) {
+	
+	.section4 #cv {
+		left:50%;
+		margin-left:-480px;
+	}
+	
+}
+
+@media only screen and (min-width: 1440px) {
+	
+	#myStory .andPlay { right:25%; }
+	
+}
+
+
+/* iPad */
+@media only screen
+and (device-width: 768px)
+and (device-height: 1024px)
+and (orientation : portrait)
+and (-webkit-device-pixel-ratio: 1) {
+	.responsive .section5 { margin-bottom:350px !important; }
+	.responsive .arrowDown { display:none; }
+}
+@media only screen
+and (device-width: 768px)
+and (device-height: 1024px)
+and (orientation : portrait) {
+	.responsive .section5 { margin-bottom:350px !important; }
+	.responsive .arrowDown { display:none; }
+}
+
+/* mobile */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+	.responsive header { padding-bottom:90px !important; }
+	.responsive .arrowDown { display:none; }
+	.responsive .section5 { margin-bottom:40px !important; }
+	.responsive .sidenav-wrapper { padding-top:20px !important; }
+	.responsive .sidenav-wrapper .nav-item { margin-bottom:20px; }
+}
